@@ -1,0 +1,81 @@
+nav
+{
+	background: #808080;
+}
+
+.rightbar
+{
+	background: #ccc;
+	height: 100vh;
+	margin-top: -10px;
+	overflow: auto;
+}
+
+.leftbar
+{
+	background: #ccc;
+	height: 100vh;
+}
+
+.leftbar ul li
+{
+	padding: 15px;
+    background: white;
+    margin: 5px;
+}
+
+.task-post-input
+{
+	border: none;
+	-webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+    transition: height 1s;
+}
+
+.task-post-input:focus
+{
+	height: 100px;
+	border: none;
+}
+
+.post-btn
+{
+	right: 12px;
+	width: 100px;
+}
+
+.time
+{
+	font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff !important;
+    background-color: #26a69a;
+    border-radius: 2px;
+}
+
+.brand-logo
+{
+	margin-left: 20px;
+}
+
+.today-time
+{
+		font-weight: 300;
+	    font-size: 0.8rem;
+	    color: #fff !important;
+	    background-color: #26a69a;
+	    border-radius: 2px;
+	    padding: 3px;
+	    margin-left: 15px;
+
+}
+
+.material-icons.balanced
+{
+	top: 4px;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 5px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
