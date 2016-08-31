@@ -27,7 +27,7 @@ class ActivationController extends Controller
     		'activation_code'=>''
     	]);
     	Auth::login($code, true);
-    	return redirect('/')->with('status', 'Account Successfully Activated');
+    	return redirect('/home')->with('status', 'Account Successfully Activated');
     	//echo "Account Successfully Activated";
   
     }

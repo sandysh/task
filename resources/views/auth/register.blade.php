@@ -1,6 +1,15 @@
-@extends('layouts.app')
-
-@section('content')
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  
+</head>
+<body>
+    
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -79,4 +88,7 @@
         </div>
     </div>
 </div>
-@endsection
+
+</body>
+</html>
+

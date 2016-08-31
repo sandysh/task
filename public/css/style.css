@@ -1,3 +1,23 @@
+::-webkit-input-placeholder {
+   padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   padding-left: 10px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   padding-left: 10px;
+}
+
+:-ms-input-placeholder {  
+   padding-left: 10px;
+}
+
+.transparent{
+	background: transparent;
+}
+
 nav
 {
 	background: #808080;
@@ -27,8 +47,8 @@ nav
 .task-post-input
 {
 	border: none;
-	-webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
-    transition: height 1s;
+	-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
 }
 
 .task-post-input:focus
